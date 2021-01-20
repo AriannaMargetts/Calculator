@@ -16,7 +16,7 @@ def calculator(first_num, second_num, operation):
         return first_num ** second_num
 
     else:
-        print("You're stoopid try again")
+        print("Invalid operation. Please try again.")
         exit()
 
 first_num = float(input("Pick first number: "))
